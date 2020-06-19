@@ -1,2 +1,2 @@
 # photography-portfolio
-My photographyportfolio
+My photography portfolio
