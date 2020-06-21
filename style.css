@@ -15,10 +15,3 @@ h3 {
     font-family: 'Concert One', cursive;
 }
 
-@media (min-width: 800px){
-
-    img {
-        max-width: 25%;
-    }
-
-}
