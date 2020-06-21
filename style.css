@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'Concert One', cursive;
+    font-size: 2rem;
+}
+
+@media (max-width: 500px){
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5;
+}
+}
+h3 {
+    font-family: 'Concert One', cursive;
+}
+
+@media (min-width: 800px){
+
+    img {
+        max-width: 25%;
+    }
+
+}
