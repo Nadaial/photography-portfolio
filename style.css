@@ -7,9 +7,18 @@ h1 {
 @media (min-width: 768px) {
 .container{
     padding: 10%;
-}
-}
 
+}
+.row{
+    align-content: center;
+}
+.column{
+    -ms-grid-column-align: center;
+}
+}
+h2{
+    font-family: 'Concert One', cursive; 
+}
 h3 {
     font-family: 'Concert One', cursive;
 }
