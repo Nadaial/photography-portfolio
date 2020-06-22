@@ -11,8 +11,8 @@ Visit https://nadaial.github.io/photography-portfolio/
 The website was tested by three different users beside the developer on three different devices -two smart phones and a medium size tablet- and their feedback was taken into consideration when making adjustments:
 
 *Carousels navigation buttons on the portfolio page were not functional-fixed
-*Navbar link was not showing as active when navigating the respective page-fixed
-*Contact form field were too narrow when displayed on a small device- padding and margins-adjusted
+*Navbar link was not showing as active when the user is on the page-fixed
+*Contact form fields were too narrow when displayed on a small device- padding and margins adjusted
 
 ## Authors and acknowledgment
 Nada Abulibdeh
