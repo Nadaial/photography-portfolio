@@ -12,14 +12,31 @@ h1 {
 .row{
     align-content: center;
 }
-.column{
-    -ms-grid-column-align: center;
-}
+
 }
 h2{
     font-family: 'Concert One', cursive; 
+    font-display: ;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
 }
 h3 {
     font-family: 'Concert One', cursive;
+    font-size: 2rem;
 }
 
+h4 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+@media (min-width: 992px) { 
+
+.carousel-inner > .item > img 
+{
+    min-width: 25%;
+}
+}
