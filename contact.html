@@ -60,7 +60,7 @@
   </section>
 
     <!--Section: Contact v.2-->
-<div class="container container-fluid p-5">
+<div class="container container-fluid p-1">
     <div class="bg-light mb-5 rounded-pill p-5 shadow-lg">
     
        <section class="mb-4">
@@ -68,20 +68,20 @@
     <!--Section heading-->
     <h2 class="h1-responsive text-center text-muted ">Lets connect!</h2>
     <!--Section description-->
-    <p class="text-center w-responsive mb-1">Do not hesitate to reach out to us with any questions. <br> No detail is too little!</p>
+    <p class="text-center w-responsive m-2">Do not hesitate to reach out to us with any questions. <br> No detail is too little!</p>
 
-    <div class="row">
+    <div class="row P-0">
 
         <!--Grid column-->
-        <div class="col mb-md-0 mb-5 p-5 ">
+        <div class="col  ">
             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                 <!--Grid row-->
-                <div class="row ">
+                <div class="row p-0 mt-5">
 
                     <!--Grid column-->
-                    <div class="col mx-auto ">
-                        <div class="md-form mb-0">
+                    <div class="col p-0 m-2">
+                        <div class="md-form p-0 m-0">
                             <input type="text" id="name" name="name" class="form-control">
                             <label for="name" class="">Your name</label>
                         </div>
@@ -89,8 +89,8 @@
                     <!--Grid column-->
 
                     <!--Grid column-->
-                    <div class="col mx-auto ">
-                        <div class="md-form mb-0">
+                    <div class="col p-0 m-2">
+                        <div class="md-form p-0 m-0 ">
                             <input type="text" id="email" name="email" class="form-control">
                             <label for="email" class="">Your email</label>
                         </div>
@@ -102,7 +102,7 @@
 
                 <!--Grid row-->
                 <div class="row ">
-                    <div class="col">
+                    <div class="col m-2 p-0">
                         <div class="md-form mb-0">
                             <input type="text" id="subject" name="subject" class="form-control">
                             <label for="subject" class="">Subject</label>
@@ -115,7 +115,7 @@
                 <div class="row ">
 
                     <!--Grid column-->
-                    <div class="col">
+                    <div class="col m-2 p-0">
 
                         <div class="md-form ">
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
@@ -127,9 +127,11 @@
                 <!--Grid row-->
 
             </form>
+<section>
 
-            <div class="text-center text-md-left text-light mx-auto">
-                <a class="btn btn-dark " onclick="document.getElementById('contact-form').submit();">Send</a>
+            <div class=" row  ">
+                <div class="col text-light m-5">
+                <a class="btn btn-dark mx-auto" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
             <div class="status"></div>
         </div>
@@ -137,8 +139,9 @@
 
         <!--Grid column-->
 </div>
+</div>
     </div>
-
+</section>
 </section>
 
 
