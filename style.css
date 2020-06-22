@@ -55,11 +55,11 @@ h5{
 
  .body1 {
     height: 100%;
-    background: #;
-    background: linear-gradient( to top, #F8F8FF, #FFFFFF);
+
+    background: linear-gradient( to top, gray , #FFFFFF 50%);
   }
   
-  #page-content {
+   #page-content {
     flex: 1 0 auto;
   }
   
