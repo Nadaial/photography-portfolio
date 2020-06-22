@@ -22,11 +22,11 @@
    </head>
 
      <!-- Navigation bar-->
-<body>
-<SECTION>
+<body class="body1">
+<section>
     <div class="jumbotron bg-dark">
       <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-        <h1 class="navbar-brand" href="#" >Nada's Photography</h1>
+        <h1 class="navbar-brand" >Nada's Photography</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-              <a class="nav-link" class="text-light bg-dark" href="./index.html" >About<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="./index.html" >About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
@@ -57,12 +57,12 @@
   
       </div>
     </div>
+    </div>
   </section>
 
     <!--Section: Contact v.2-->
 <div class="container container-fluid p-1 ">
     <div class="mb-5 rounded-pill p-5 shadow-lg bg-light ">
-    
        <section class="mb-4">
 
     <!--Section heading-->
@@ -73,7 +73,7 @@
     <div class="row P-0">
 
         <!--Grid column-->
-        <div class="col  ">
+        <div class="col ">
             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                 <!--Grid row-->
@@ -116,7 +116,6 @@
 
                     <!--Grid column-->
                     <div class="col m-2 p-0">
-
                         <div class="md-form ">
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                             <label for="message">Your message</label>
@@ -124,14 +123,15 @@
 
                     </div>
                 </div>
-                <!--Grid row-->
-
+            </div>
+            </div>
             </form>
+            </section>
 <section>
 
             <div class=" row  ">
                 <div class="col text-light m-5">
-                <a class="btn btn-dark mx-auto" onclick="validateForm()"";>Send</a>
+                <a class="btn btn-dark mx-5" onclick="validateForm ()";> Send </a>
             </div>
             <div class="status"></div>
         </div>
@@ -142,13 +142,8 @@
 </div>
     </div>
 </section>
-</section>
 
 
- 
-</div>
-
-</div>
 <script>
 function validateForm() {
     var name =  document.getElementById('name').value;
@@ -182,23 +177,15 @@ function validateForm() {
    
 </script>
    <!--Background and footer-->
-   <body class="d-flex flex-column body1">
-    <div id="page-content">
-      <div class="container text-center">
-        <div class="row justify-content-center">
-          <div class="col-md-7">
-            <h1 class="font-weight-light mt-4 text-white"></h1>
-            <p class="lead text-white-50"></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+   <div class="d-flex flex-column ">
+        
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 mt-3">
       <div class="container text-center">
         <small>Copyright &copy; Nada Abulibdeh</small>
       </div>
     </footer>
-  </body>
+  
+  </div>
 </body>
 </html>
 
