@@ -52,3 +52,25 @@ h5{
         padding: 0.75rem
     }
  }
+
+ .body1 {
+    height: 100%;
+    background: #;
+    background: linear-gradient( to top, #F8F8FF, #FFFFFF);
+  }
+  
+  #page-content {
+    flex: 1 0 auto;
+  }
+  
+  #sticky-footer {
+    flex-shrink: none;
+  }
+  
+  /* Other Classes for Page Styling */
+  
+  .bg1 {
+    
+    border-color: silver;
+    border-width: thick;
+  }
